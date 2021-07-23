@@ -9,9 +9,9 @@ class CannonBall {
     this.r = 30;
     this.speed = 0.05;
     this.body = Bodies.circle(x, y, this.r, options);
-    this.image = loadImage("./assets/cannonball.png");
+    this.image = loadImage("cannonball.png");
     this.animation = [this.image];
-    this.tower = loadImage("./assets/gray.jpg");
+    this.tower = loadImage("gray.jpg");
     this.trajectory = [];
     this.isSink = false;
     World.add(world, this.body);
